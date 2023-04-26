@@ -17,8 +17,8 @@ def list_buckets(): # comando propriamente dito
 
 
 @cli.command('list-bucket-objects')
-@click.argument('bctname')
-def list_bucket_objects(bctname):
+@click.argument('bctname') # adiciona argumento
+def list_bucket_objects(bctname): #  passa argumento como parametro na função
     "List objects in an s3 bucket"
     for obj in s3.Bucket(bctname).objects.all(): #percorre e printa os arquivos
         print(obj)
