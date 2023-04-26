@@ -6,6 +6,6 @@ Webatron é um script que permite sincronizar um diretório  com um bucket s3 e 
 
 ## Features
 
-add list buckets
+add list buckets<<br>
 add list objects buckets
 
